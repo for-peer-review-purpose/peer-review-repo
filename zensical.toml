@@ -41,9 +41,6 @@ nav = [
     { "14. Modeling exercises" = "modules/14.-modeling-exercises.md" },
     { "15. Regression assumptions and diagnostics" = "modules/15.-regression-assumptions-diagnostics.md" },
   ]},
-  { "For faculty" = [
-    { "Knotis documentation" = "for-faculty/knotis-documentation.md" },
-  ]},
 ]
 
 # Knotis settings
@@ -51,7 +48,7 @@ nav = [
 [project.extra.knotis.content]
 heading_numbering = true
 heading_guides = true
-generator = true
+generator = false
 styled_section_groups = true
 
 ## Wikilinks
@@ -79,7 +76,7 @@ exclude_paths = []
 enabled = true
 default_view = "all"
 exclude_tags = []
-exclude_paths = ["for-faculty"]
+exclude_paths = []
 exclude_wikilinks = []
 
 ### Page graph
@@ -131,7 +128,7 @@ content_inset = [2, 2, 2, 2]
 ## Search
 [project.extra.knotis.search]
 enabled = true
-exclude_paths = ["for-faculty"]
+exclude_paths = []
 exclude_wikilinks = []
 order = []
 
