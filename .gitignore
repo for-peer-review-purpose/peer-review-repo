@@ -1,0 +1,13 @@
+# Generated site and Knotis build files
+/site/
+/.cache/
+/.knotis/
+/.zensical.knotis.build.toml
+
+# Local Python environment and bytecode
+/.venv/
+__pycache__/
+*.py[cod]
+
+# macOS metadata
+.DS_Store
